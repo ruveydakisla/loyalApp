@@ -1,47 +1,21 @@
 import React from 'react';
-import {
-  BrowserRouter as Router, // Burada etiketi kısaltmak amacıyla böyle yazmış.
-  Switch,
-  Route,
-  Link,
-  Routes,
-} from 'react-router-dom';
-import Home from './Home';
+import { Route, Router, Routes } from 'react-router-dom';
 import MemoryNFT from './MemoryNFT';
+import LowerNavbar from '../components/LowerNavbar';
+import Rewalds from './Rewalds';
+import Membership from './Membership';
+import Home from './Home';
 function Memories() {
   return (
-    <div className="container-fluid ">
-      <br />
-      <br />
-      <div>
-        <button className="btnn btnRadius">My Wallet</button>
-      </div>
-
-      <br />
-      <br />
-      <div className="d-flex">
-        <button className="btnn">
-          <Link to="/Memories/home" className="nav-link">
-            <li className="nav-link">Home</li>
-          </Link>
-        </button>
-        <button className="btnn">
-          <Link to="./memorynft" className="nav-link">
-            <li className="nav-link">Memory NFT's</li>
-          </Link>
-        </button>
-        <button className="btnn">
-          <Link to="./" className="nav-link">
-            <li className="nav-link">Rewalds</li>
-          </Link>
-        </button>
-        <div>
-          <Routes>
-            <Route path="/Memories/home" exact element={<Home />} />
-            <Route path="./" exact element={<MemoryNFT />} />
-          </Routes>
-        </div>
-      </div>
+    <div className="container-fluid  ">
+      <LowerNavbar />
+      <Routes>
+        <Route path="/Memories" element={<Memories />}>
+          <Route path="membership" element={<Membership />} />
+          <Route path="memorynft" element={<MemoryNFT />} />
+          <Route path="rewalds" element={<Rewalds />} />
+        </Route>
+      </Routes>
     </div>
   );
 }

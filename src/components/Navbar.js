@@ -1,15 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-    BrowserRouter as Router,// Burada etiketi kısaltmak amacıyla böyle yazmış.
-    Switch,
-    Route,
+    
     Link
     } from "react-router-dom" ;
-import Home from '../Pages/Home';
+
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-sm navbar-light bg-light">
       <div className="container">
         <a className="navbar-brand" href="/">LoyalApp</a>
         <button
@@ -35,6 +33,7 @@ const Navbar = () => {
                 <li>Memories</li>
               </Link>
             </li>
+            
            
           </ul>
         </div>

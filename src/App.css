@@ -1,16 +1,93 @@
 .App {
   text-align: center;
-  
+  align-items: center;
 }
 
 .btnn{
-  width: 100%;
-  box-shadow: 0.3px 0.5px 1px;
-  background-color: white;
+  width: 35%;
+  box-shadow: 0.3px 2px 1px #393459;
+  background-color: #aaa7f2;
   border: 0px;
   border-radius: 20px;
   margin-left:10px;
   margin-right: 10px;
   line-height: 30px;
+  color: #fff;
+}
+.custom-card{
+  width: 200px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+ border: 1px solid #daf2c9;
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 50px;
+  box-shadow: 5px 3px 1px #daf2c9;
   
+  
+}
+.card-img{
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+  
+  
+}
+.custom-card img{
+  width:180px;
+  height: 180px;
+  border-radius: 50px;
+border: 1px solid gray;
+}
+
+.custom-navbar{
+  text-align: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 30px;
+  flex-direction: row;
+  height: 30px;
+  
+  box-shadow: 0.5px 0.5px 0.5px;
+
+}
+.member-ship-card{
+  margin-left: 50px;
+  width:250px;
+  box-shadow: 4px 6px 0.5px #daf2c9;
+  border-left:0.5px solid #b6aeff ;
+  border-bottom: 1px solid #b6aeff;
+  border-right: 0.5px solid #b6aeff;
+  border-top-right-radius: 10px;
+  padding-left: 10px;
+  margin-top:50px;
+  align-items: center;
+  padding-top: 10px;
+  
+}
+.member-ship-card p{
+  margin-left: 5px;
+  padding-top: 15px;
+  
+}
+.member-ship-card hr{
+  margin-right: 5px;
+}
+.member-ship-card img{
+  width: 50px;
+  height: 50px;
+}
+.number-div{
+ float: right;
+ 
+}
+.custom-link:active{
+  color: #aaa7f2;
+  font-size: 50px;
 }
