@@ -98,6 +98,34 @@ border: 1px solid gray;
 .nav-link{
   color: black;
 }
+.memo-card{
+  width: 200px;
+  height: 280px;
+  justify-content: center;
+  border: 1px solid #daf2c9;
+  border-radius: 20px;
+  padding: 10px;
+ box-shadow: 0px 0px 4px #daf2c9;
+  
+  
+}
+.memo-card img{
+  width:160px;
+  height: 160px;
+  border-radius: 50px;
+  display: flex;
+  
+  
+}
+.memo-card div{
+  display: block;
+  width: 210px;
+  height: 180px;
+  background: linear-gradient(#daf2c9,#fff);
+  justify-content: center;
+  align-items: center;
+  
+}
 @media(max-width:600px){
   *{
     font-size: 16px;
