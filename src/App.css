@@ -31,6 +31,31 @@
   color: #fff;
   font-size: 30px;
 }
+.btn-go{
+  width: 20%;
+  box-shadow: 0.3px 5px 1px #393459;
+  background-color: #aaa7f2;
+  border: 0px;
+  border-radius: 30px;
+  margin-left:10px;
+  margin-right: 10px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+}
+.success-text{
+  font-size: 50px;
+}
+.img-star{
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  position: relative;
+  top: 15px;
+  right: 10px;
+  
+}
 .custom-card{
   width: 200px;
   height: 300px;

@@ -11,6 +11,7 @@ import MemoryNFT from './Pages/MemoryNFT';
 import Membership from './Pages/Membership';
 import MemoryCard from './components/MemoryCard';
 import Claim from './Pages/Claim';
+import Success from './Pages/Success';
 export default function App() {
   return (
     <div>
@@ -30,6 +31,7 @@ export default function App() {
             <Route path="/Card" element={<Card />} />
             <Route path="memocard" element={<MemoryCard />} />
             <Route path="claim" element={<Claim />} />
+            <Route path="success" element={<Success />} />
           </Routes>
         </div>
       </Router>
