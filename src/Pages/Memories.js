@@ -4,7 +4,7 @@ import MemoryNFT from './MemoryNFT';
 import LowerNavbar from '../components/LowerNavbar';
 import Rewalds from './Rewalds';
 import Membership from './Membership';
-import Home from './Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function Memories() {
   return (
     <div className="container-fluid  ">

@@ -1,20 +1,24 @@
-import React from 'react'
+import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
 function LowerNavbar() {
   return (
     <div>
-         <br />
       <br />
-      <div  className='d-flex justify-content-center'>
+      <br />
+      <div className="d-flex justify-content-center">
         <button className="btnn btnRadius">My Wallet</button>
       </div>
 
       <br />
       <br />
       <div className="d-flex justify-content-center">
-        <div  style={{alignItems:'center', width:'35%',textAlign:'center'}} >
-          <nav className='navbar-expand-lg navbar  custom-navbar justify-content-center'>
-            <ul style={{alignItems:'center', textAlign:'center'}} className="navbar-nav ml-auto ">
+        <div
+          className="low-navbar"
+        >
+          <nav  className="navbar-expand-lg navbar  custom-navbar justify-content-center">
+            <ul
+              className="navbar-nav ml-auto "
+            >
               <li className="nav-item">
                 <Link to="./" className="nav-link custom-link ">
                   <li className="nav-link custom-link">Home</li>
@@ -37,13 +41,15 @@ function LowerNavbar() {
                 </Link>
               </li>
             </ul>
-            
           </nav>
         </div>
+      </div>
+      <br />
+      <div className="justify-content-center  d-flex">
+        <Outlet />
+      </div>
     </div>
-    <Outlet/>
-    </div>
-  )
-};
+  );
+}
 
 export default LowerNavbar;
