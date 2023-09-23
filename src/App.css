@@ -19,6 +19,18 @@
   line-height: 30px;
   color: #fff;
 }
+.btn-claim{
+  width: 20%;
+  box-shadow: 0.3px 5px 1px #393459;
+  background-color: #aaa7f2;
+  border: 0px;
+  border-radius: 30px;
+  margin-left:10px;
+  margin-right: 10px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 30px;
+}
 .custom-card{
   width: 200px;
   height: 300px;
@@ -125,6 +137,20 @@ border: 1px solid gray;
   justify-content: center;
   align-items: center;
   
+}
+.claim-div{
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(#daf2c9,#fff);
+  justify-content: center;
+  align-items: center;
+}
+.claim-div div{
+  width: 260px;
+  height: 260px;
+  box-shadow: 0px 0px 4px gray;
+  border-radius: 200px;
+  background-color: #fff;
 }
 @media(max-width:600px){
   *{

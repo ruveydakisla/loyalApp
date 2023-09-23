@@ -10,6 +10,7 @@ import Rewalds from './Pages/Rewalds';
 import MemoryNFT from './Pages/MemoryNFT';
 import Membership from './Pages/Membership';
 import MemoryCard from './components/MemoryCard';
+import Claim from './Pages/Claim';
 export default function App() {
   return (
     <div>
@@ -28,6 +29,7 @@ export default function App() {
             </Route>
             <Route path="/Card" element={<Card />} />
             <Route path="memocard" element={<MemoryCard />} />
+            <Route path="claim" element={<Claim />} />
           </Routes>
         </div>
       </Router>
